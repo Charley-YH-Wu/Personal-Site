@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Final Project</title>
+	<link rel="stylesheet" href="style.css">	
+	<style>
+		.input{
+			margin-bottom: 20px;
+		}
+		#form{
+			width: 800px;
+			height: 600px;
+			margin: 0 auto;
+			padding: 20px;
+			font-family: sans-serif;
+		}
+	</style>
+</head>
+<body>
+	<div id="nav">
+		<a href="index.html">Home</a>
+		<a href="resume.html">Resume</a>
+		<a href="interests.html">Interests</a>
+		<a href="contact.html">Contact</a>
+	</div>
+
+	<div id="content">
+	<form action="confirmation.html">
+	<div id="form">
+	<h1>Contact form</h1>
+
+	<div class="input">
+		<label for="name">Name</label><br>
+		<input type="text" id="name" placeholder="Your Name" required>
+	</div>
+
+	<div class="input">
+		<label for="email">Email</label><br>
+		<input type="text" id="email" placeholder="Your Email" required>
+	</div>
+
+	<div class="input">
+		<label for="textarea-id">Message</label><br>
+		<textarea id="textarea-id" rows="20" cols="100" name="msg"></textarea>	
+	</div>
+
+	<button type="submit">Submit</button>	
+	</div>
+	</form>
+</div>
+</body>
+</html>

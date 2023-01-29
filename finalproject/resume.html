@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Final Project</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+		#usc {
+			background-image: url("resource/usc.jpeg");
+			height: 400px;
+			width: 600px;
+			background-size: cover;
+			border-radius: 20px;
+		}
+		#usc h2{
+			font-size: 22px;
+			padding-bottom: 20px;
+		}
+		.details{
+			visibility: hidden;
+			height: 300px;
+			width: 500px;
+			border-radius: 20px;
+			padding: 50px;
+			color: white;
+			background-color: rgba(0,0,0,0.6);
+		}
+		#usc:hover .details {
+			visibility: visible;
+		}	
+
+		#skills{
+			margin-top: 70px;
+		}	
+		.skill{
+			width: 200px;
+			height: 120px;
+			float: left;
+			margin-right: 10px;
+			background-color: lightgoldenrodyellow;
+			padding: 20px;
+			padding-top: 0px;
+			border-radius: 20px;
+			transition: all 1s ease;
+		}
+		.skill:hover{
+			transform: scale(1.5);
+		}
+		#experience{
+			margin-top: 70px;
+		}
+		#heirified{
+			background-image: url(resource/heirified.png);
+			background-size: cover;
+			width: 460px;
+			height: 460px;
+			border-radius: 20px;
+			float: left;
+		}
+		.description{
+			background-color: rgba(255,255,255,0.9);
+			visibility: hidden;
+			padding: 20px;
+			width: 420px;
+			height: 420px;
+		}
+
+		#uber:hover .description{
+			visibility: visible;
+		}
+		#heirified:hover .description{
+			visibility: visible;
+		}
+
+		#uber{
+			background-image: url(resource/uber.png);
+			background-size: cover;
+			width: 460px;
+			height: 460px;
+			margin-left: 50px;
+			border-radius: 20px;
+			float: left;
+		}
+		#projects{
+			margin-top: 70px;
+		}
+		#projects a{
+			text-decoration: none;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div id="nav">
+		<a href="index.html">Home</a>
+		<a href="resume.html">Resume</a>
+		<a href="interests.html">Interests</a>
+		<a href="contact.html">Contact</a>
+	</div>
+
+<div id="content">
+<h1>Education</h1>
+
+<div id="usc">
+<div class="details">	    						       
+<h3>Bachelor of Science in</h3>
+<h2>Computer Science & Business Administration</h2>
+<p>Aug 2018 – May 2023</p>
+<h4>Courses:</h4>
+<ul>
+<li>Data Structures</li>
+<li>Algorithms</li>
+<li>Software Engineering</li>
+<li>Web Development</li>
+<li>Mobile Development</li>
+</ul>
+</div>
+</div>
+
+
+<div id="skills">
+<h1>Skills</h1>
+<div class="skill">
+<h3>Languages</h3>
+<p>Java, C++, C#, C, Dart, Python, SQL, HTML, CSS, JavaScript</p></div>
+<div class="skill">
+<h3>Frameworks</h3>
+<p>React, Flutter, .NET, REST, RESTful API, Flask, Express.js, JUnit, Espresso</p></div>
+<div class="skill">
+<h3>Databases</h3>
+<p>Git, MySQL, Firebase, Heroku PostgreSQL, Google Cloud, AWS</p></div>
+<div class="skill">
+<h3>Tools</h3>				
+<p>Node.js, Visual Studio, Xcode, Android Studio, Docker, Oracle VirtualBox</p></div>
+</div>
+<div class="both"></div>
+
+
+<div id="experience">
+<h1>Professional Experience</h1>
+<div id="heirified">
+<div class="description">
+<h3>Full Stack Software Engineer</h3>	    								     	     
+<p>Jul 2022 – Oct 2022</p>
+<ul>
+<li>Designed and developed a cross-platform application for Mobile (IOS and Android) and Web using Flutter and Dart to offer estate planning services for digital and traditional assets</li>
+<li>Finished implementing, debugging, and testing 15+ features in Android Studio, such as user authentication, connecting to bank accounts and digital wallets, and biometrics</li>
+<li>Conducted MarTech, fintech, and blockchain API integration such as for Twilio, Plaid, and Hatchfi</li>
+<li>Created RESTful API for the backend using Python and Flask framework with client-server architecture</li>
+<li>Set up Firebase database, designed database schema, and hosted Flutter web application on AWS Amplify</li>
+</ul>
+</div>
+</div>
+
+<div id="uber">
+<div class="description">
+<h3>Performance Marketing Manager Intern</h3>							     	        
+<p>May 2021 – Aug 2021</p>
+<ul>
+<li>Managed cross-functional projects involving A/B testing high-converting content and launching ad campaign</li>
+<li>Leveraged excellent communication skills in collaboration with cross-functional teams and managers</li>
+<li>Grew monthly conversion of Uber Eats ad campaigns by 37.1% and reduced cost per lead by 21.4%</li>
+<li>Applied excellent problem solving skills in improving Uber Freight ad campaigns’ content, doubled campaigns’ creative content upon communicating with the data team, researching, and analyzing competitors’ ads, and increased monthly conversion by 88.2% and lowered cost per lead by 36.1%</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="both"></div>
+
+<div id="projects">
+<h1>Projects</h1>
+<a href="https://github.com/Charley-YH-Wu/USCDoorDrink"><h2>USC DoorDrink Android App</h2></a>
+
+<a href="https://github.com/Charley-YH-Wu/OPMusic">
+<h2>OPMusic Song Rating/Ranking App</h2></a>
+
+<a href="https://github.com/Charley-YH-Wu/Flappy-Bird">
+<h2>Flappy Bird</h2></a>
+</div>
+</div>
+</body>
+</html>

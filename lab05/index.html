@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Player Demographics Survey</title>
+	<style>
+		.textbox{
+			clear: both;
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+
+<body>
+	<form action="confirmation.html">
+		<h1>Player Demographics Survey</h1>
+		<label for="text-id">PlayerID: </label>
+		<input type="text" id="text-id" placeholder="Your UID" required>
+		<p></p>
+
+		<label>Platform: </label>
+		<label><input type="radio" name="radio-name" value="R1">Mobile</label>
+		<label><input type="radio" name="radio-name" value="R2">PC</label>
+		<label><input type="radio" name="radio-name" value="R3">Xbox</label>
+		<p></p>
+
+		<label>Your Favourite Game Genre: </label>
+		<label><input type="checkbox" name="cb1" value="c1">Strategy</label>
+		<label><input type="checkbox" name="cb2" value="c2">Card</label>
+		<label><input type="checkbox" name="cb3" value="c3">Adventure</label>
+		<p></p>
+
+		<label for ="dropdown-id">How would you rate this update: </label>
+		<select id="dropdown-id" name="dropdown">
+			<option value="o1">1 - Satisfied</option>
+			<option value="o2">2 - Moderate</option>
+			<option value="o3">3 - Unsatisifed</option>
+		</select>
+		<p></p>
+
+		<div class="textbox">
+		<label for="textarea-id">Other Comments: </label>
+		</div>
+
+		<textarea id="textarea-id" rows="4" cols="50" name="msg"></textarea>
+		<p></p>
+
+		<label><input type="checkbox" name="cb4" value="c4" required>I accept the terms and conditions</label>
+		<p></p>
+
+		<button type="submit">Submit</button>
+		<button type="reset">Reset</button>
+
+	</form>
+</body>
+</html>
